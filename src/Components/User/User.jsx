@@ -12,7 +12,7 @@ function User() {
 
         if (data === null) {
             console.log("hello");
-            navigate('/game-scout/:user');
+            navigate('/game-scout/home/:user');
         }
 
     },[]);
@@ -20,7 +20,7 @@ function User() {
         const data = localStorage.getItem('session');
         if (data === null) {
             console.log("hello");
-            navigate('/');
+            navigate('/game-scout/');
         }
 
     });
@@ -61,7 +61,7 @@ function User() {
     const handleLogout = async () => {
         const { error } = await supabase.auth.signOut();
         if (!error) {
-            navigate("/");
+            navigate("/game-scout/");
         } else {
             console.error("Error during logout:", error);
         }

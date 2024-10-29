@@ -16,10 +16,10 @@ function App() {
           {/*<Header/>*/}
           {/*<div className="container">*/}
             <Routes>
-                <Route path='/' element={<LoginPage />}></Route>
-                <Route path="/game-scout/" element={<><Header/> <Sidebar/>  <GamesListing/></>}/>
-                <Route path="/game-scout/game/:slug" element={<><Header/> <GameDetails/></>} />
-                <Route path="/game-scout/:user" element={<><Header/> <User/></>} />
+                <Route path='/game-scout/' element={<LoginPage />}></Route>
+                <Route path="/game-scout/home/" element={<><Header/> <Sidebar/>  <GamesListing/></>}/>
+                <Route path="/game-scout/home/game/:slug" element={<><Header/> <GameDetails/></>} />
+                <Route path="/game-scout/home/:user" element={<><Header/> <User/></>} />
               {/*<Route path="*" element={}/>*/}
             </Routes>
           {/*</div>*/}

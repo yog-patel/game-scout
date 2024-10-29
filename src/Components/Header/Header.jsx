@@ -11,14 +11,14 @@ function Header() {
     return (
         <header>
             <div className="header">
-                <Link to="/game-scout/" style={{textDecoration: "none"}}>
+                <Link to="/game-scout/home/" style={{textDecoration: "none"}}>
                     <div className="logo">
                         Game Scout
                     </div>
                 </Link>
                 <Search/>
                 <div className="user-image">
-                    <Link to="/game-scout/user" style={{textDecoration: "none"}}>
+                    <Link to="/game-scout/home/user" style={{textDecoration: "none"}}>
                         <img id={"user-img"} src={user} alt={"User-image"}/>
                     </Link>
                 </div>

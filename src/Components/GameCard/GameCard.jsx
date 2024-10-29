@@ -64,7 +64,7 @@ function GameCard({ data: game }) {
         //<Link to={`/game-scout/game/${game.slug}`} style={{ textDecoration: "none" }}>
             <div className={"card-item"}>
                 <div className={"card-inner"}>
-                    <Link to={`/game-scout/game/${game.slug}`} style={{ textDecoration: "none" }}>
+                    <Link to={`/game-scout/home/game/${game.slug}`} style={{ textDecoration: "none" }}>
                         <div className={"card-top"}>
 
                             <img src={game.image} alt={game.game_name}></img>

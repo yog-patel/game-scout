@@ -18,7 +18,7 @@ function GamesListing() {
 
         if (data === null) {
             console.log("hello");
-            navigate('/game-scout/:user');
+            navigate('/game-scout/home/:user');
         }
 
     },[]);
@@ -26,7 +26,7 @@ function GamesListing() {
         const data = localStorage.getItem('session');
         if (data === null) {
             console.log("hello");
-            navigate('/');
+            navigate('/game-scout/');
         }
 
     });

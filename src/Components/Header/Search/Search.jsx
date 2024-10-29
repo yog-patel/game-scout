@@ -48,7 +48,7 @@ function Search() {
                         results.map((game) => (
 
                             <li key={game.game_id} className={"result"}>
-                                <Link to={`/game-scout/game/${game.slug}`} style={{ textDecoration: "none" }}>
+                                <Link to={`/game-scout/home/game/${game.slug}`} style={{ textDecoration: "none" }}>
                                 <div className="result-item">
                                     {/*<div className="result-item-img">*/}
                                         <img className={"result-img"} src={game.image} alt={game.name}/>

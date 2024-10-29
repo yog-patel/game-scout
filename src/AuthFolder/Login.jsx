@@ -35,7 +35,7 @@ function LoginPage() {
                     userName: session.user.user_metadata?.userName || "", // Get username if stored in metadata
                 };
                 dispatch(addLogin(user));
-                navigate("/game-scout"); // Navigate after successful login
+                navigate("/game-scout/home"); // Navigate after successful login
             }
         });
 
@@ -109,7 +109,7 @@ function LoginPage() {
 
     if (session) {
         // User is already logged in, navigate to user list
-        navigate("/game-scout/");
+        navigate("/game-scout/home/");
         return null;
     }
 
