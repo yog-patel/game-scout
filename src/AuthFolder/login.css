@@ -1,0 +1,138 @@
+/*.signup-submit-button{*/
+/*    !*background-color: #058c42;*!*/
+/*    background-color: #e6e6e6;*/
+/*    !*height: 7vh;*!*/
+/*    width: 50%;*/
+/*    height: 6vh;*/
+/*    border-radius: 3vh;*/
+/*    margin: 0 auto 0 auto;*/
+/*    cursor: pointer;*/
+/*    transition-duration: 0.4s;*/
+/*}*/
+/*.signup-submit-button:hover{*/
+/*    box-shadow: 0 0 5px 1vh rgba(255, 255, 255, 0.07);*/
+/*}*/
+/*.form{*/
+/*    justify-content: center;*/
+/*    float: left;*/
+/*    !*align-items: center;*!*/
+/*}*/
+/*.bi-github{*/
+/*    background-color: #e6e6e6;*/
+/*}*/
+
+/*.git-signup-submit-button{*/
+/*    !*background-color: #058c42;*!*/
+/*    background-color: #e6e6e6;*/
+/*    !*height: 7vh;*!*/
+/*    width: 120%;*/
+/*    height: 6vh;*/
+/*    border-radius: 3vh;*/
+/*    margin: 0 auto 0 auto;*/
+/*    cursor: pointer;*/
+/*    transition-duration: 0.4s;*/
+/*    float: right;*/
+/*}*/
+/*!*.git-login-container{*!*/
+/*!*    float: ;*!*/
+/*!*}*!*/
+
+/*.sign-up{*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*}*/
+
+
+/* login.css */
+
+/* General styling */
+/*body {*/
+/*    font-family: Arial, sans-serif;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    height: 100vh;*/
+/*    background-color: #f2f2f2;*/
+/*    margin: 0;*/
+/*}*/
+
+.sign-up {
+    margin-top: 15vh;
+    background-color: #292929;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 40vw;
+    text-align: center;
+    height: 70vh;
+    /*margin: auto;*/
+    margin-left: 30vw;
+}
+
+.signup-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    background-color: #292929;
+    padding-top: 5vh;
+    /*margin-left: -25%;*/
+}
+
+.signup-container input {
+    width: 150%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin-left: -25%;
+}
+
+.signup-container input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.signup-submit-button, .git-signup-submit-button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.signup-submit-button:hover, .git-signup-submit-button:hover {
+    background-color: #0056b3;
+}
+
+.git-login-container {
+    margin-bottom: 1rem;
+    background-color: #292929;
+}
+
+.git-signup-submit-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    background-color: #151515;
+}
+
+.git-signup-submit-button svg {
+    /*fill: #fff;*/
+}
+
+p {
+    padding-top: 1rem;
+    color: #007bff;
+    font-size: 0.875rem;
+    cursor: pointer;
+    background-color: #292929;
+}
+
+p:hover {
+    text-decoration: underline;
+}

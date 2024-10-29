@@ -1,0 +1,77 @@
+.games-listing{
+    /*z-index: 5;*/
+    background-color: #151515;
+    /*padding: 1vw;*/
+    display: flex;
+
+    /*padding-top: 2vh;*/
+    /*display: flex;*/
+    /*flex-wrap: wrap;*/
+    .games-listing-list{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        /*justify-content: space-between;*/
+        /*margin-right: 3vw;*/
+
+        li{
+            list-style: none;
+            margin: .8vh;
+        }
+    }
+}
+/*#game-card-container{*/
+/*    width: 20vw;*/
+/*}*/
+
+.pagination-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pagination-nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 2vh;
+}
+
+.pagination {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 7vh;
+}
+
+.page-item {
+    margin: 0 5px;
+}
+
+.page-link {
+    padding: 8px 12px;
+    font-size: 1em;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: #333333;
+    border: 1px solid #444444;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.page-link:hover {
+    background-color: #555555;
+}
+
+.page-item.active .page-link {
+    background-color: #007bff;
+    color: #ffffff;
+    cursor: default;
+}
+
+.page-item.disabled .page-link {
+    background-color: #333333;
+    color: #666666;
+    cursor: not-allowed;
+    border: 1px solid #444444;
+}
+
