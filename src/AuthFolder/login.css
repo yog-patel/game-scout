@@ -57,14 +57,15 @@
 /*}*/
 
 .sign-up {
-    margin-top: 15vh;
+    margin-top: 25vh;
     background-color: #292929;
     padding: 2rem;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    min-width: 600px;
     width: 40vw;
     text-align: center;
-    height: 70vh;
+    min-height: 50vh;
     /*margin: auto;*/
     margin-left: 30vw;
 }
@@ -128,7 +129,7 @@
 p {
     padding-top: 1rem;
     color: #007bff;
-    font-size: 0.875rem;
+    font-size: 1.2rem;
     cursor: pointer;
     background-color: #292929;
 }
